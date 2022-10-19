@@ -23,6 +23,11 @@ yarn add pg-hstore@2.3.3
 yarn add dayjs@1.10.4
 ```
 
+## cookies
+```
+yarn add cookies@0.8.0
+```
+
 ## package.jsonに従いインストール
 ```
 yarn install
