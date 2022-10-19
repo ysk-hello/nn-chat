@@ -18,6 +18,11 @@ yarn add pg@8.5.1
 yarn add pg-hstore@2.3.3
 ```
 
+## dayjs
+```
+yarn add dayjs@1.10.4
+```
+
 ## package.jsonに従いインストール
 ```
 yarn install
