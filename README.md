@@ -37,6 +37,11 @@ yarn install
 ```
 guest1:test
 ```
+## 脆弱性対策
+```
+htpasswd -D users.htpasswd admin
+htpasswd -bB users.htpasswd admin apple
+```
 
 # PostgresSQLコンテナ
 appコンテナを起動すると、自動的にdbコンテナが起動する。
