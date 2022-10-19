@@ -37,3 +37,9 @@ psql
 select * from "Post";
 \q
 ```
+
+♯ pug
+変数定義
+```
+- let isDeletable = (user === post.postedBy)
+```

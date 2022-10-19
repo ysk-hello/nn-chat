@@ -16,4 +16,9 @@ body
   each post in posts
     p 送信日時: #{post.createdAt}
     p #{post.content}
+    - let isDeletable = (user === post.postedBy)
+    if isDeletable
+      form(method="post" action="/posts/delete")
+        input(type="hidden" name="id" value=post.id)
+        button(type="submit") 削除 
     hr
